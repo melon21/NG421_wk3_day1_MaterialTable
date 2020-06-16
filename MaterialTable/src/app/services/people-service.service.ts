@@ -6,7 +6,7 @@ import { dataNames} from 'src/app/Data/peopleData';
   providedIn: 'root'
 })
 export class PeopleService {
-people: People[]= [];
+people: People[] = [];
   constructor() {
     this.people = dataNames;
    }
