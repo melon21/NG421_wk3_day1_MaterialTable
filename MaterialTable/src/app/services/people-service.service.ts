@@ -7,6 +7,7 @@ import { dataNames} from 'src/app/Data/peopleData';
 })
 export class PeopleService {
 people: People[] = [];
+
   constructor() {
     this.people = dataNames;
    }
